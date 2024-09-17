@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: darkslateblue;
+}
+.inp-box{
+text-align: center;
+}
+input{
+    width: 250px;
+    height: 50px;
+    margin: 15px auto;
+    color: black;
+    padding: 15px;
+   border: none;
+   border-radius: 7px;
+}
+#btn{
+   background-color: aliceblue;
+   padding: 10px 25px;
+   font-size: 20px;
+   color: darkslateblue;
+   border-radius: 17px;
+   border: none;
+}
+
+.user{
+    color: aliceblue;
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid aliceblue;
+    box-shadow: 5px 5px 30px 10px darkslateblue;
+    border-radius: 15px;
+
+}
+
+
+#age-text{
+    color: aliceblue;
+
+}
+
+#limit-text{
+    color: aliceblue;
+
+}
+
+#all-users{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+#filter-users{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px auto;
+}
